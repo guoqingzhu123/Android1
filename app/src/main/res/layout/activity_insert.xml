@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.InsertActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="姓名："
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入姓名"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="班级："
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+    <Spinner
+        android:id="@+id/spinner_province"
+        android:entries="@array/province_arr"
+        android:spinnerMode="dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="年龄"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入你的年龄" />
+
+    <Button
+        android:id="@+id/fix"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:textColor="#000000"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消"
+        android:textSize="20sp"
+        android:textColor="#000000"/>
+</LinearLayout>

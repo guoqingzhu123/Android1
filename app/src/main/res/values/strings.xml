@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Android</string>
+    <string-array name="province_arr">
+        <item>移动1813</item>
+        <item>移动1823</item>
+        <item>移动1811</item>
+    </string-array>
+</resources>
